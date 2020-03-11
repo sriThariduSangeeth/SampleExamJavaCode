@@ -47,12 +47,16 @@ public class MainApp {
 
         EmployeeSalary employeeSalary;
         scan = new Scanner(System.in);
-        int i = 0;
+
+        System.out.println("==========================");
         System.out.println("Fill each employee details ");
+        System.out.println("==========================");
 
-        for (i = 0 ; i < empcount ; i++){
+        for (int i = 0 ; i < empcount ; i++){
 
-            System.out.println("Fill Details Employee number : " + i);
+            int x = 1;
+
+            System.out.println("Fill Details Employee number - >  " + x);
 
             System.out.println("Enter Employee Number :");
             String number = scan.next();
@@ -74,7 +78,7 @@ public class MainApp {
             //employee.add(employeeSalary);
             //like this
             employee.add( new EmployeeSalary(number,name,attend,wage,comYear) );
-            System.out.println("Employee num "+i+ " added");
+            System.out.println("Employee num "+x+ " added");
         }
 
         for ( EmployeeSalary em :employee) {
