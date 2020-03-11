@@ -46,6 +46,7 @@ public class MainApp {
     private void getEmployeeDetails(int empcount) {
 
         EmployeeSalary employeeSalary;
+        int x = 1;
         scan = new Scanner(System.in);
 
         System.out.println("==========================");
@@ -53,8 +54,6 @@ public class MainApp {
         System.out.println("==========================");
 
         for (int i = 0 ; i < empcount ; i++){
-
-            int x = 1;
 
             System.out.println("Fill Details Employee number - >  " + x);
 
@@ -79,16 +78,26 @@ public class MainApp {
             //like this
             employee.add( new EmployeeSalary(number,name,attend,wage,comYear) );
             System.out.println("Employee num "+x+ " added");
+            x++;
         }
 
+        System.out.println("============================");
+        System.out.println("Display Employee Information");
+        System.out.println("============================");
+        int xx = 0;
         for ( EmployeeSalary em :employee) {
-            if (em.getTotalSalary() >= 20){
-                System.out.println("Display Employee Information");
+            if (em.getFullService() >= 20){
 
                 System.out.println("Employee Number :" + em.getEmpNuber());
                 System.out.println("Employee Name :" + em.getEmpName());
                 System.out.println("Employee Total Salary :" + em.getTotalSalary());
+                xx++;
             }
+
+        }
+
+        if(xx == 0 ){
+            System.out.println("There is no records about employees who worked more than 20 years.");
         }
     }
 

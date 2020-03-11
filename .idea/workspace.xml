@@ -4,9 +4,7 @@
     <list default="true" id="2d103552-9dc7-404b-8a54-a9f72a9f0906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SampleExamJavaCode/com/sangeeth/company/EmployeeSalary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SampleExamJavaCode/com/sangeeth/company/EmployeeSalary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SampleExamJavaCode/com/sangeeth/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sangeeth/company/EmployeeSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sangeeth/company/EmployeeSalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sangeeth/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sangeeth/company/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sangeeth/company/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sangeeth/company/MainApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sangeeth/company/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="85" column="55" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
+            <state relative-caret-position="313">
+              <caret line="99" column="51" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,12 +144,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583955058314</updated>
-      <workItem from="1583955059718" duration="658000" />
+      <workItem from="1583955059718" duration="1754000" />
     </task>
+    <task id="LOCAL-00001" summary="add new action">
+      <created>1583955783391</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583955783391</updated>
+    </task>
+    <task id="LOCAL-00002" summary="correct loop issues">
+      <created>1583956080847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583956080848</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="658000" />
+    <option name="totallyTimeSpent" value="1754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
@@ -172,7 +185,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5247525" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35478547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -190,6 +203,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add new action" />
+    <MESSAGE value="correct loop issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct loop issues" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/sangeeth/company/EmployeeSalary.java">
@@ -211,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sangeeth/company/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="85" column="55" selection-start-line="85" selection-start-column="55" selection-end-line="85" selection-end-column="55" />
+        <state relative-caret-position="313">
+          <caret line="99" column="51" selection-start-line="99" selection-start-column="44" selection-end-line="99" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
