@@ -12,6 +12,7 @@ public class EmployeeSalary {
     private int attendCount;
     private float dailyWage;
     private int fullService;
+    private float totalSalary;
 
     public EmployeeSalary(String empNuber, String empName, int attendCount, float dailyWage, int fullService) {
         this.empNuber = empNuber;
@@ -19,8 +20,30 @@ public class EmployeeSalary {
         this.attendCount = attendCount;
         this.dailyWage = dailyWage;
         this.fullService = fullService;
+
+        calTotalSalary(dailyWage , attendCount );
     }
 
+    private void calTotalSalary( float dailyWage , int attendCount) {
+
+        this.totalSalary = dailyWage * (float) attendCount;
+    }
+
+    public float getTotalSalary(){
+        return this.totalSalary;
+    }
+
+    public String getEmpName (){
+        return this.empName;
+    }
+
+    public String getEmpNuber() {
+        return this.empNuber;
+    }
+
+    public int getFullService (){
+        return  this.fullService;
+    }
 
     @Override
     public String toString() {
@@ -28,3 +51,4 @@ public class EmployeeSalary {
         return super.toString();
     }
 }
+
